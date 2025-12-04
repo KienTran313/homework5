@@ -1,0 +1,13 @@
+package main
+
+func fun6(n int) float64 {
+	var result float64
+	for i := 1; i <= n; i++ {
+		sum := 0.0
+		for j := 1; j <= i; j++ {
+			sum += float64(j)
+		}
+		result += 1 / sum
+	}
+	return result
+}
