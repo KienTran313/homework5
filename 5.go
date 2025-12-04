@@ -8,6 +8,3 @@ func fun5(n int) float64 {
 	result := 1 / sum
 	return result
 }
-
-// Test
-//
