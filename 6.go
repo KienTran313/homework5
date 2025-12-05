@@ -1,14 +1,11 @@
 package main
 
-import "fmt"
-
 func fun6(n int) float64 {
 	var result float64
 	for i := 1; i <= n; i++ {
 		sum := 0.0
 		for j := 1; j <= i; j++ {
 			sum += float64(j)
-			fmt.Println(sum, ", ")
 		}
 		result += 1 / sum
 	}
