@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func fun4(n int) int {
 	if n < 100 || n > 999 {
 		return 0
@@ -16,8 +14,4 @@ func fun4(n int) int {
 	} else {
 		return 0
 	}
-}
-
-func main() {
-	fmt.Println(fun4(1000))
 }

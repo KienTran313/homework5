@@ -15,10 +15,6 @@ func fun6(n int) float64 {
 	return result
 }
 
-func main() {
-	fmt.Print(fun6(5))
-}
-
 // n = 4
 // i = 1 j = 1
 // i = 2 j =1;j=2
